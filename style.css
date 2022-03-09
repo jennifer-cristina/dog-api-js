@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #6db1a58e;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+}
+
+#raca {
+    height: 40px;
+    width: 200px;
+    margin-right: 20px;
+}
+
+#pesquisar {
+    height: 40px;
+    width: 100px;
+}
+
+
+#imagem-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    padding: 8px;
+}
+
+#imagem-container img {
+    height: 300px;
+    flex-grow: 1;
+    transition: all .4s;
+}
+
+#imagem-container img:hover {
+    box-shadow:
+                1px 1px #193953,
+                2px 2px #123653,
+                3px 3px #153957;
+        -webkit-transform: translateX(-3px);
+        transform: translateX(-3px);
+}
