@@ -24,12 +24,17 @@ header {
 #pesquisar {
     height: 40px;
     width: 100px;
+    margin-right: 10px;
 }
 
+#abrir-modal {
+    height: 40px;
+    width: 100px;
+}
 
 #imagem-container {
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;        
     gap: 8px;
     padding: 8px;
 }
